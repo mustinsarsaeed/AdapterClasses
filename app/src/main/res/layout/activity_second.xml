@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/setuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#233487"
+        android:textAlignment="center"
+        android:hint="@string/result_no_found"
+        />
+    <TextView
+        android:id="@+id/setpassword"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#D80909"
+        android:layout_height="wrap_content"
+        android:hint="@string/result_no_found"
+        />
+    <TextView
+        android:id="@+id/setemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#009688"
+        android:hint="@string/result_no_found"
+        />
+    <TextView
+        android:id="@+id/setAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#00BCD4"
+        android:hint="@string/result_no_found"
+         />
+</LinearLayout>

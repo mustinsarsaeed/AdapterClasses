@@ -1,0 +1,23 @@
+package Activities
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import Adapter.HobbiesAdapter
+import com.example.myapplication.R
+import Model.Supplier
+import kotlinx.android.synthetic.main.activity_hobbies.*
+
+class HobbiesActivity : AppCompatActivity(){
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_hobbies)
+
+        val layoutManager =  LinearLayoutManager(this)
+        layoutManager.orientation = LinearLayoutManager.VERTICAL
+        recycler_view_activity.layoutManager = layoutManager
+
+        val adapter = HobbiesAdapter(this, Supplier.hobbies)
+        recycler_view_activity.adapter = adapter
+    }
+}
