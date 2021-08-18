@@ -1,10 +1,8 @@
-package Activities
+package com.example.myapplication
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.myapplication.R
-import com.example.myapplication.showToast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity :AppCompatActivity() {

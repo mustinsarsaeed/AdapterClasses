@@ -1,11 +1,8 @@
-package Activities
+package com.example.myapplication
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import Adapter.HobbiesAdapter
-import com.example.myapplication.R
-import Model.Supplier
 import kotlinx.android.synthetic.main.activity_hobbies.*
 
 class HobbiesActivity : AppCompatActivity(){

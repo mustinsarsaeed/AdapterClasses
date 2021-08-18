@@ -1,4 +1,4 @@
-package Adapter
+package com.example.myapplication
 
 import android.content.Context
 import android.content.Intent
@@ -7,9 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import Model.Hobby
-import com.example.myapplication.R
-import com.example.myapplication.showToast
 import kotlinx.android.synthetic.main.list_item.view.*
 
 class HobbiesAdapter(val context: Context, val hobbies :List<Hobby>): RecyclerView.Adapter<HobbiesAdapter.MyViewHolder>() {

@@ -1,4 +1,4 @@
-package Model
+package com.example.myapplication
 
 data class Hobby(var title: String)
 
